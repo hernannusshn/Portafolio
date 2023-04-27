@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Conversor de monedas</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <h2>Conversor de monedas</h2>
+        </header>
+        <form action="#">
+            <div class="monto">
+                <p>Ingrese el monto</p>
+                <input type="text" value="10">
+            </div>
+            <div class="desplegable">
+                <div class="inicial">
+                    <p>De</p>
+                    <div class="cajaSeleccion">
+                        <img src="https://flagcdn.com/w40/ar.png" srcset="https://flagcdn.com/w80/ar.png 2x" 
+                        class="bandera"
+                            alt="Argentina">
+
+
+                        <select name="" id="">
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="icono"><i class="material-icons-outlined">sync_alt</i></div>
+                <div class="final">
+                    <p>Para</p>
+                    <div class="cajaSeleccion">
+                        <img
+                        src="https://flagcdn.com/w40/us.png"
+                        srcset="https://flagcdn.com/w80/us.png 2x"
+                        class="bandera"
+                        alt="United States">
+
+                        <select name="" id="">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="tipoCambio"><p></p></div>
+            <div class="equivalencia"><p></p></div>
+
+            <button class="btnConversion" id="convertir">Convertir</button>
+        </form>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./js/listaPaises.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
